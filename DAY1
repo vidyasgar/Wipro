@@ -22,3 +22,80 @@ System.out.print("zero");
 }
 
 }
+
+
+// Write a program to accept two numbers and print the greater value of the two
+
+import java.util.Scanner;
+
+public class tx1 {
+
+public static void main(String[] args) {
+Scanner sc= new Scanner(System.in);
+    System.out.print("Enter a value :");
+    int a = sc.nextInt();
+    System.out.print("Enter b value :");
+    int b = sc.nextInt();
+    
+if (a>b)
+    {
+    System.out.print(a+"is greater than "+b);
+    }
+else {
+    System.out.print(b+"is greater than "+a);
+    }
+
+}
+
+}
+
+
+// Write a program to accept a number N and print whether the number is EVEN or ODD
+
+import java.util.Scanner;
+
+public class tx1 {
+
+public static void main(String[] args) {
+Scanner sc= new Scanner(System.in);
+    System.out.print("Enter the number :");
+    int a = sc.nextInt();
+if (a%2==0)
+    {
+    System.out.print("even");
+    }
+else 
+{
+System.out.print("odd");
+}
+}
+
+}
+
+//  Write a program to accept two numbers and print whether their sum is EVEN or ODD
+
+import java.util.Scanner;
+
+public class tx1 {
+
+public static void main(String[] args) {
+Scanner sc= new Scanner(System.in);
+    System.out.print("Enter a value :");
+    int a = sc.nextInt();
+    System.out.print("Enter b value :");
+    int b = sc.nextInt();
+    
+if ((a+b)%2==0)
+    {
+    System.out.print("sum of a and b is even ");
+    }
+else {
+    System.out.print("sum of a and b is odd ");
+    }
+
+}
+
+}
+
+
+
